@@ -147,3 +147,7 @@ set tabstop=2
 set shiftwidth=2
 " 让 vim 把连续数量的空格视为一个制表符
 set softtabstop=2
+
+
+" 解决插入模式下delete/backspce键失效问题
+set backspace=2
